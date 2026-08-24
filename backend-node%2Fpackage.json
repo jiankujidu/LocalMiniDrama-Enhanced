@@ -1,0 +1,27 @@
+{
+  "name": "upingdrama-backend",
+  "version": "1.3.0",
+  "description": "UpingDrama 后端服务",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "migrate": "node src/db/migrate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@volcengine/openapi": "^1.36.1",
+    "adm-zip": "^0.5.16",
+    "better-sqlite3": "^11.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "js-yaml": "^4.1.0",
+    "jsonrepair": "^3.13.3",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.34.5",
+    "uuid": "^10.0.0"
+  }
+}
